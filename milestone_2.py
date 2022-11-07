@@ -1,3 +1,4 @@
+guess = input("Enter a single letter")
 import random
 word_list=['Mango', 'Apple', 'Banana', 'Pineapple', 'Strawberry']
 random.choice(word_list)
