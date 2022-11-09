@@ -29,6 +29,7 @@ I used the git command ‘touch’ to create a file named milestone_2.py from th
 touch milestone_2.py 
 This python file contains the code for this milestone. 
   
+#Milestone 2  
 There are 5 tasks within this milestone.  
 
 ## Task 1 – Define the list of possible words:
