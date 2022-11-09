@@ -64,8 +64,9 @@ This is done by creating conditional checks that must be passed before the input
 
 An `if` statement checks whether the length of the input is equal to 1 and that the input is an alphabet.
 If the 2 conditions are met a message is printed to screen saying "Good guess!".  
-`if len(guess) == 1 and guess.isalpha()  
-      print ('Good guess!')`  
+`if len(guess) == 1 and guess.isalpha()`    
+>`print ('Good guess!')`.  
+
 If either of the 2 preceding conditions are not met, an else block is created that prints "Oops! That is not a valid input."  
 `else:
        print ('Oops! That is not a valid input.')`
