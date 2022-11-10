@@ -14,19 +14,22 @@ Github is used to host the code online so a new remote repository (repo) was cre
 
 These are some commands I used for moving code from my local directory to the GitHub repository:
 
-git status
-This shows the files that have changed locally since the last snapshot saved on the remote Github repo.
-git add .
-This shows the changes that will be added, also known as staging.
-git commit -m
-This is where the comments are used to describe what the code will do are written.
-git push
-This command sends the changes from the local repo to the remote Github repo.
+`git status`  
+This shows the files that have changed locally since the last snapshot saved on the remote Github repo.  
+`git add .`  
+This shows the changes that will be added, also known as staging.  
+`git commit -m`  
+This is where the comments are used to describe what the code will do are written.  
+`git push`  
+This command sends the changes from the local repo to the remote Github repo.  
+  
 
-I used the git command ‘touch’ to create a file named milestone_2.py from the VSCode terminal: touch milestone_2.py This python file contains the code for this milestone.
-
-Milestone 2
-There are 5 tasks within this milestone.
+I used the git command ‘touch’ to create a file named milestone_2.py from the VSCode terminal:
+touch milestone_2.py 
+This python file contains the code for this milestone. 
+  
+## Milestone 2  
+There are 5 tasks within this milestone.  
 
 Task 1 – Define the list of possible words:
 In Python, lists are used to store multiple data in a single variable. I created a list containing the names of my 5 favourite fruits and assigned it to a variable called word_list:
