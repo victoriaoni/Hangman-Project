@@ -11,17 +11,15 @@ while True:
     
     def ask_for_input():
         if len(guess) == 1 and guess.isalpha():
-                
+            
             def check_guess(guess):
                 if guess in word:
                     print(f"Good guess! {guess} is in the word.")                 
                 else:
                     print("Invalid letter. Please, enter a single alphabetical character.")  
             check_guess(guess)
-            
-    ask_for_input()
     break
-
+ask_for_input()
 
 
 
